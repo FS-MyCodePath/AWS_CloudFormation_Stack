@@ -4,7 +4,7 @@
 
 <p align="center"><img src="./images/CloudFormation_logo.png" width= "400"></p>
 
-# 🧱 Implementando sua Primeira Stack com AWS CloudFormation #
+## 🧱 Implementando sua Primeira Stack com AWS CloudFormation ##
 
 &nbsp; &nbsp; &nbsp; &nbsp; O AWS CloudFormation é um serviço que permite criar e gerenciar recursos da AWS de forma automatizada, utilizando modelos (templates) em formato YAML ou JSON. Em vez de configurar manualmente cada serviço pela console, o CloudFormation executa o provisionamento de forma padronizada, segura e repetível.
 
@@ -74,11 +74,18 @@ Resources:
 
 <p align="center"><img src="./images/CloudFormation_stack.png" width= "400"></p>
 
-# ✅ Benefícios de usar CloudFormation #
+## ✅ Benefícios de usar CloudFormation ##
 
 Automação: provisionamento rápido e sem erros manuais.  
 Reprodutibilidade: fácil recriar o mesmo ambiente em outra região ou conta.  
 Controle de versão: templates podem ser armazenados no GitHub.  
 Integração: funciona junto com serviços como AWS CodePipeline e AWS Config.  
 
-# Conclusão #
+## 📌 Conclusão ##
+
+&nbsp; &nbsp; &nbsp; &nbsp; Este projeto apresentou os conceitos fundamentais do **AWS CloudFormation**, demonstrando como criar e gerenciar uma **stack** por meio de um template em YAML. Ao longo da implementação, foi possível compreender como a Infraestrutura como Código (IaC) simplifica o provisionamento de recursos, reduz erros manuais e torna a criação de ambientes um processo automatizado, consistente e reutilizável.  
+
+&nbsp; &nbsp; &nbsp; &nbsp; Mais do que apenas agrupar recursos, uma **stack** representa uma unidade de gerenciamento da infraestrutura. Ela permite criar, atualizar e excluir todos os componentes de uma aplicação de forma centralizada, mantendo a infraestrutura sincronizada com o template definido. Essa abordagem facilita o controle de mudanças, a padronização entre ambientes e a escalabilidade dos projetos.  
+
+&nbsp; &nbsp; &nbsp; &nbsp; Como primeiro contato com o CloudFormation, este desafio reforça a importância da automação na computação em nuvem e serve como base para projetos mais avançados, envolvendo arquiteturas completas, integração com pipelines de CI/CD e gerenciamento de infraestrutura em larga escala.  
+
