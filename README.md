@@ -72,7 +72,9 @@ Resources:
 
 ## Exemplo de Stack ##
 
-<p align="center"><img src="./images/CloudFormation_stack.png" width= "400"></p>
+<p align="center"><img src="./images/Diagrama_Stack.png" width= "700"></p>
+
+&nbsp; &nbsp; &nbsp; &nbsp; A AWS CloudFormation Stack automatiza o provisionamento de uma infraestrutura básica na AWS a partir de um template em YAML ou JSON. Durante a criação da stack, são provisionados recursos essenciais como uma VPC com sub-redes públicas e privadas, uma instância EC2 protegida por Security Group, um volume EBS anexado para armazenamento persistente, um bucket Amazon S3 para armazenamento de arquivos, logs e backups, uma IAM Role para gerenciamento de permissões, além de componentes de rede como Internet Gateway, Route Table e Network ACL. A solução também integra o Amazon CloudWatch para monitoramento e utiliza um Key Pair para acesso seguro à instância. Ao final da implantação, a stack disponibiliza informações de saída (Outputs), como o endereço IP da instância, o nome do bucket S3 e o identificador da VPC, facilitando o gerenciamento da infraestrutura.  
 
 ## ✅ Benefícios de usar CloudFormation ##
 
