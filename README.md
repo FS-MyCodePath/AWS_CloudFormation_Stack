@@ -2,7 +2,7 @@
 >Desafio AWS CloudFormation do Bootcampo Code Girls 2025.
 >Projeto prático de criação da primeira stack com a CloudFormation
 
-<p align="center"><img src="./images/CloudFormation_logo.png" width= "400"></p>
+<p align="center"><img src="./images/CloudFormation_Stack.png"></p>
 
 ## 🧱 Implementando sua Primeira Stack com AWS CloudFormation ##
 
